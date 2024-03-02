@@ -1,0 +1,106 @@
+.card {
+  display: flex;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  position: relative;
+  .c1 {
+    position: absolute; /* Use absolute positioning */
+    background-color: rgb(241, 142, 11);
+    width: 120px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    top: -20px;
+    left: -10px;
+  }
+  .c2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #f0fff0;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    top: 50px;
+    left: -10px;
+  }
+  .image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .bname {
+      margin-top: 10px;
+    }
+  }
+  .c3 {
+    flex: 2;
+    padding-left: 20px;
+    padding-right: 20px;
+    .desc {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    ul {
+      padding-left: 0;
+    }
+  }
+  .c4 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .rating {
+      background-color: rgb(201, 241, 241);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      padding: 20px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      h1{
+        margin: 0;
+      }
+      h2 {
+        margin: 0;  
+        color: #888; 
+      }
+    }
+    .viewbtn {
+      padding: 20px;
+      border: none;
+      margin: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(8, 189, 245);
+      }
+    }
+  }
+}
+// ******************************
+.star-rating {
+  .star {
+    font-size: 24px; // Adjust star size as needed
+    color: #ccc; // Default star color
+  }
+
+  .filled {
+    color: gold; // Color for filled stars
+  }
+}
+
+@media (max-width: 535px) {
+  .card{
+    flex-direction: column;
+    align-items: center;
+  }
+}

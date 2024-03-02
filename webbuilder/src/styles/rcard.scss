@@ -1,0 +1,77 @@
+.rcontainer{
+    h1{
+       text-align: center; 
+    }
+}
+.rbox{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ width: 100%;
+ justify-content: space-evenly;
+}
+.rcard{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+   align-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    position: relative;
+    .img{
+        padding: 10px;
+        align-self: center;
+        .tag{
+            text-align: center;
+            color: grey;
+        }
+    }
+    .discount{
+       padding: 5px;
+       background-color: rgb(199, 228, 228);
+       border-radius: 5px;
+       margin: 2px;
+       color: rgb(89, 89, 156);
+    }
+    .viewbtn2 {
+        padding: 20px;
+        border: none;
+        margin: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        &:hover {
+          background-color: rgb(8, 189, 245);
+        }
+      }
+      .div1{
+        display: flex;
+        // flex-wrap: wrap;
+      }
+      .div2{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        // flex-wrap: wrap;
+        h1{
+            color: grey;
+            font-size: 1.5rem;
+        }
+        h2{
+            color: silver;
+            font-size: 1.2rem;
+        }
+        h3{
+            color: red;
+            font-size: 1rem;
+        }
+        
+    }
+}
+@media (max-width: 535px) {
+    // .rbox{
+    //   flex-direction: column;
+    //   align-items: center;
+    // }
+  }

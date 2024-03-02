@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Web Builder Pro",
+    "description": "A powerful web building tool with drag-and-drop functionality. It offers customizable templates, SEO optimization, and e-commerce integration.",
+    "price": 49.99,
+    "rating": 8.5,
+    "discount": 6,
+    "features": [
+      "Drag-and-drop interface",
+      "Responsive design",
+      "Customizable templates",
+      "SEO optimization",
+      "E-commerce integration"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "EasySiteBuilder",
+    "description": "Create stunning websites with ease using EasySiteBuilder. It provides pre-designed templates, mobile-friendly design, and social media integration.",
+    "price": 29.99,
+    "rating": 9,
+    "discount": 10,
+    "features": [
+      "Simple interface",
+      "Pre-designed templates",
+      "Mobile-friendly design",
+      "SEO tools",
+      "Social media integration"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "QuickBuild",
+    "description": "Build websites quickly and efficiently with QuickBuild. It features an intuitive editor, built-in analytics, and e-commerce support for SEO-friendly URLs.",
+    "price": 39.99,
+    "rating": 7.5,
+    "discount": 15,
+    "features": [
+      "Fast setup",
+      "Intuitive editor",
+      "Built-in analytics",
+      "SEO-friendly URLs",
+      "E-commerce support"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "SiteMaster",
+    "description": "SiteMaster is an all-in-one website building solution for professionals. It offers an advanced drag-and-drop editor, customizable themes, and integrated blogging platform.",
+    "price": 59.99,
+    "rating": 8,
+    "discount": 20,
+    "features": [
+      "Advanced drag-and-drop editor",
+      "Customizable themes",
+      "SEO tools and analytics",
+      "Integrated blogging platform",
+      "E-commerce functionality"
+    ]
+  }
+]
