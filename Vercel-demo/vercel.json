@@ -12,6 +12,7 @@
           "dest": "/" 
       }
     ],
+    
     "functions": {
     "/(.*)": {
       "maxDuration": 30
