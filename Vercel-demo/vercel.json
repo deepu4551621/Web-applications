@@ -12,10 +12,16 @@
           "dest": "/" 
       }
     ],
-    
     "functions": {
-    "/(.*)": {
+    "/": {
+      "maxDuration": 30
+    },
+    "/login": {
+      "maxDuration": 30
+    },
+    "/signup": {
       "maxDuration": 30
     }
+  }
   }
   }
