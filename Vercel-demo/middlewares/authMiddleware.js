@@ -13,9 +13,8 @@ const authenticateUser = async (req,res,next)=>{
             const userData = await response.json();
             // console.log('userData->', userData)
             res.json({success:true, userData});
-          }
-          
-        next();
+              next();
+          }  
     } catch (error) {
       res.json({serverAuth: error})
     }
