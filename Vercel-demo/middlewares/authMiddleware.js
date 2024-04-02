@@ -15,8 +15,6 @@ const authenticateUser = async (req,res,next)=>{
             res.json({success:true, userData});
         next();
           }
-
-          }  
     } catch (error) {
       res.json({serverAuth: error})
     }
